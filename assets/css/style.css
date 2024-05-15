@@ -155,6 +155,14 @@ h6 {
   border-radius: 50%;
 }
 
+@media (max-width: 992px) {
+  #header .logo {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 #header.header-scrolled .logo img {
   max-height: 100px;
   transition: ease-in 0.3s;
