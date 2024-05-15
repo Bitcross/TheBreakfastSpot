@@ -323,6 +323,10 @@ h6 {
   transition: 0.5s;
 }
 
+#header.header-scrolled .mobile-nav-toggle {
+  color: #143c6c;
+}
+
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
